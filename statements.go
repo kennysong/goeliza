@@ -218,7 +218,6 @@ var DefaultResponses = []string{
     "Please tell me more.",
     "Let's change focus a bit... Tell me about your family.",
     "Can you elaborate on that?",
-    "Why do you say that %s?",
     "I see.",
     "Very interesting.",
     "I see. And what does that tell you?",
