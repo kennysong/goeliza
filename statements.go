@@ -91,6 +91,14 @@ var Psychobabble = map[string][]string{
         "Hi there... how are you today?",
         "Hello, how are you feeling today?",
     },
+    `^thanks(.*)`: {
+        "You're welcome!",
+        "Anytime!",
+    },
+    `^thank you(.*)`: {
+        "You're welcome!",
+        "Anytime!",
+    },
     `^good morning(.*)`: {
         "Good morning... I'm glad you could drop by today.",
         "Good morning... how are you today?",
