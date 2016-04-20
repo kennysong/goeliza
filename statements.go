@@ -144,6 +144,9 @@ var Psychobabble = map[string][]string{
         "If I could %s, then what?",
         "Why do you ask if I can %s?",
     },
+    `(.*)dream(.*)`: {
+        "Tell me more about your dream.",
+    },
     `can I ([^\?]*)\??`: {
         "Perhaps you don't want to %s.",
         "Do you want to be able to %s?",
