@@ -81,10 +81,25 @@ var Psychobabble = map[string][]string{
         "There are many times when no apology is needed.",
         "What feelings do you have when you apologize?",
     },
-    `hello(.*)`: {
+    `^hello(.*)`: {
         "Hello... I'm glad you could drop by today.",
         "Hi there... how are you today?",
         "Hello, how are you feeling today?",
+    },
+    `^hi(.*)`: {
+        "Hello... I'm glad you could drop by today.",
+        "Hi there... how are you today?",
+        "Hello, how are you feeling today?",
+    },
+    `^good morning(.*)`: {
+        "Good morning... I'm glad you could drop by today.",
+        "Good morning... how are you today?",
+        "Good morning, how are you feeling today?",
+    },
+    `^good afternoon(.*)`: {
+        "Good afternoon... I'm glad you could drop by today.",
+        "Good afternoon... how are you today?",
+        "Good afternoon, how are you feeling today?",
     },
     `I think (.*)`: {
         "Do you doubt %s?",
